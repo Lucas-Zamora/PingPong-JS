@@ -8,7 +8,7 @@ Link para jogar: https://editor.p5js.org/Lucas-Zamora/full/jgzpEghjP
 
 Controles e Dicas: 
 
--Seta para cima e para baixo do teclado.
+-Use as seta para ⬆️ e ⬇️
 
 -Clique na tela do jogo para iniciar
 
