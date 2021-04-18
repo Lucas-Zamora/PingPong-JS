@@ -7,6 +7,7 @@ Projeto Atual:
 Link para jogar: https://editor.p5js.org/Lucas-Zamora/full/jgzpEghjP
 
 Controles e Dicas: 
+
 -Seta para cima e para baixo do teclado.
 
 -Clique na tela do jogo para iniciar
@@ -14,6 +15,7 @@ Controles e Dicas:
 -Caso você erre muito, o código tende a te ajudar diminuindo a precisão do inimigo
 
 
+Ideias futuras:
 
 Ainda precisa de melhorias, em breve vou inserir uma pontuação limite para ocorrer o game over, e evitar que a raquete suba ou desça mais que a limitação do quadrado.
 
