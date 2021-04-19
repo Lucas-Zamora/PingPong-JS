@@ -7,12 +7,11 @@ Projeto Atual:
 Link para jogar: https://editor.p5js.org/Lucas-Zamora/full/jgzpEghjP
 
 Controles e Dicas: 
+- Use as seta para ⬆️ e ⬇️
 
--Use as seta para ⬆️ e ⬇️
+- Clique na tela do jogo para iniciar
 
--Clique na tela do jogo para iniciar
-
--Caso você erre muito, o código tende a te ajudar diminuindo a precisão do inimigo
+- Caso você erre muito, o código tende a te ajudar diminuindo a precisão do inimigo
 
 
 
