@@ -13,7 +13,7 @@ Controles e Dicas:
 
 - Caso você erre muito, o código tende a te ajudar diminuindo a precisão do inimigo
 
-*Ultimas alterações: 
+Ultimas alterações: 
 
 -Ao atingir 5 pontos você ganha o jogo, mas caso o inimigo faça 5 você perde
 
