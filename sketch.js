@@ -54,6 +54,10 @@ function draw() {
   calculaChanceDeErrar();
   incluiPlacar();
   marcaPonto();
+    if (pontosDoOponente == 5 || meusPontos == 5) {
+    noLoop();
+    resultadoPartida();
+}
 }
 
 function mostraBolinha(){
@@ -82,12 +86,12 @@ function mostraRaquete(x,y){
 }
 
 function movimentaMinhaRaquete(){
-  if (keyIsDown(UP_ARROW)){
-    yRaquete -= 10;
-  }
-  if (keyIsDown(DOWN_ARROW)){
-    yRaquete += 10;
-  }
+  if (keyIsDown(UP_ARROW) && yRaquete >= 0){
+    yRaquete -= 5;
+    }
+  if (keyIsDown(DOWN_ARROW) && yRaquete <= (400 - raqueteAltura)){
+    yRaquete += 5;
+    }
 }
 
 function verificaColisaoRaquete(){
@@ -130,9 +134,9 @@ function incluiPlacar(){
   textAlign(CENTER);
   textSize(16);
   fill(color(0,191,255));
-  rect(150, 10, 40, 20);
+  rect(110, 10, 40, 20);
   fill(255);
-  text(meusPontos, 170, 26);
+  text(meusPontos, 130, 26);
   fill(color(0,191,255));
   rect(450, 10, 40, 20);
   fill(255);
@@ -147,5 +151,16 @@ function marcaPonto(){
   if (xBolinha < 10){
     pontosDoOponente += 1;
     ponto.play();
+  }
+}
+
+function resultadoPartida() {
+  textAlign(CENTER);
+  textSize(55);
+  fill(300);
+  if (meusPontos > pontosDoOponente) {
+    text("YOU WIN", 300, 200);
+  } else {
+    text("YOU LOSE", 300, 200); 
   }
 }
